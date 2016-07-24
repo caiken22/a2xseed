@@ -1,1 +1,2 @@
-# a2xseed
+# Angular 2 Seed
+
