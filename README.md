@@ -1,2 +1,2 @@
-# Angular 2 Seed
+# Angular 2 Sandbox/Seed
 

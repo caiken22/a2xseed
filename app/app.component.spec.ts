@@ -1,4 +1,5 @@
 /* tslint:disable:no-unused-variable */
+/*
 import { AppComponent } from './app.component';
 
 import {
@@ -70,3 +71,4 @@ function restoreOriginalAppComponent(tcb: TestComponentBuilder) {
     .overrideTemplate( AppComponent, '<h1>My First Angular 2 App</h1>')
     .overrideProviders(AppComponent, [{ provide: CustomerService, useValue: {} }]);
 }
+*/
