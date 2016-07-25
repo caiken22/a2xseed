@@ -9,28 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-// import { CustomerService } from './customer/customer.service';
-// import { CustomersComponent } from './customer/customers.component';
-// here is my barrel // future i would just import './customer'
-var index_1 = require('./customer/index');
+var router_1 = require('@angular/router');
 var AppComponent = (function () {
     function AppComponent() {
-        // [ ] means property binding - C to D
-        // ( ) means event binding - D to C
-        this.title = 'Customer App';
-        this.name = 'Ward';
-        this.wardsColor = 'green';
+        this.title = 'A2 Seed';
     }
-    AppComponent.prototype.changeSuitColor = function () {
-        this.wardsColor = this.wardsColor === 'green' ? 'red' : 'green';
-    };
     AppComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
             selector: 'my-app',
             templateUrl: 'app.component.html',
-            directives: [index_1.CustomersComponent],
-            providers: [index_1.CustomerService]
+            directives: router_1.ROUTER_DIRECTIVES
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);

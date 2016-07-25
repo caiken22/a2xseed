@@ -9,24 +9,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var CustomerComponent = (function () {
-    function CustomerComponent() {
-        this.myColour = 'gray';
+var AComponent = (function () {
+    function AComponent() {
     }
-    CustomerComponent.prototype.ngOnInit = function () { };
-    __decorate([
-        core_1.Input(), 
-        __metadata('design:type', Object)
-    ], CustomerComponent.prototype, "customer", void 0);
-    CustomerComponent = __decorate([
+    AComponent.prototype.ngOnInit = function () { };
+    AComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
-            selector: 'app-customer',
-            templateUrl: 'customer.component.html'
+            selector: 'comp-a',
+            templateUrl: 'a.component.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], CustomerComponent);
-    return CustomerComponent;
+    ], AComponent);
+    return AComponent;
 }());
-exports.CustomerComponent = CustomerComponent;
-//# sourceMappingURL=customer.component.js.map
+exports.AComponent = AComponent;
+//# sourceMappingURL=a.component.js.map

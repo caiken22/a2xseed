@@ -1,26 +1,12 @@
 import { Component } from '@angular/core';
-
-// import { CustomerService } from './customer/customer.service';
-// import { CustomersComponent } from './customer/customers.component';
-
-// here is my barrel // future i would just import './customer'
-import { CustomersComponent, CustomerService } from './customer/index';
+import { ROUTER_DIRECTIVES }  from '@angular/router';
 
 @Component({
   moduleId: module.id,
   selector: 'my-app',
   templateUrl: 'app.component.html',
-  directives: [CustomersComponent],
-  providers: [CustomerService]
+  directives: ROUTER_DIRECTIVES
 })
 export class AppComponent {
-  // [ ] means property binding - C to D
-  // ( ) means event binding - D to C
-  title = 'Customer App';
-  name = 'Ward';
-  wardsColor = 'green';
-
-  changeSuitColor() {
-    this.wardsColor = this.wardsColor === 'green' ? 'red' : 'green';
-  }
+  title = 'A2 Seed';
 }
